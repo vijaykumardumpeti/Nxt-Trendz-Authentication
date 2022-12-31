@@ -1,0 +1,76 @@
+/* Write your CSS code here */
+.login-container {
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.login-image {
+  height: 300px;
+  width: 550px;
+}
+.form-container {
+  height: 380px;
+  width: 350px;
+
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 10px;
+
+  border-radius: 10px;
+  font-family: 'roboto';
+  color: black;
+}
+.trendz-image {
+  height: 70px;
+}
+.userName-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 300px;
+  font-family: 'roboto';
+}
+.password-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  width: 300px;
+  font-family: 'roboto';
+
+  margin-top: 10px;
+}
+.input-element {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 0px none transparent;
+  background-color: #d7dfe9;
+  color: black;
+}
+.login-button {
+  width: 300px;
+  border: 0px none transparent;
+  color: white;
+
+  height: 35px;
+  border-radius: 10px;
+  background-color: #0b69ff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+
+  font-family: 'roboto';
+}
