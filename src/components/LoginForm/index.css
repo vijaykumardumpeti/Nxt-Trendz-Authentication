@@ -74,3 +74,10 @@
 
   font-family: 'roboto';
 }
+.error-msg {
+  color: red;
+  font-family: 'roboto';
+  font-size: 12px;
+  width: 300px;
+  text-align: center;
+}

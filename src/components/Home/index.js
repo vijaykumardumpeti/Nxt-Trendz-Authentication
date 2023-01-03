@@ -9,7 +9,7 @@ const Home = () => (
       <div className="second-container-1-1">
         <h1>Clothes That Get YOU Noticed</h1>
         <p>
-          Clothing serves many purposes: it can serve as protection from the
+          Fashion is part of the daily air it can serve as protection from the
           elements, rough surfaces, sharp stones, rash-causing plants, insect
           bites, by providing a barrier between the skin and the environment.
           Clothing can insulate against cold or hot conditions, and it can

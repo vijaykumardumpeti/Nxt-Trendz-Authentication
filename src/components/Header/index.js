@@ -8,14 +8,14 @@ const Header = () => (
         alt="website logo"
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-logo-img.png"
       />
-      <div className="header-items-container">
-        <p>Home</p>
-        <p>Products</p>
-        <p>Cart</p>
+      <ul className="header-items-container">
+        <li>Home</li>
+        <li>Products</li>
+        <li>Cart</li>
         <button className="logout-button" type="button">
           Logout
         </button>
-      </div>
+      </ul>
     </div>
   </>
 )
