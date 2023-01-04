@@ -25,10 +25,13 @@ export default class LoginForm extends Component {
     history.replace('/')
   }
 
-  onFailure = () => {
+  onFailure = data => {
+    console.log(data.error_msg)
     this.setState({
-      errorMsg: "*Username and Password didn't match",
+      errorMsg: data.error_msg,
     })
+
+    console.log(data)
   }
 
   submitForm = async event => {
@@ -62,12 +65,12 @@ export default class LoginForm extends Component {
     }
 
     const response = await fetch(url, options)
-    console.log(response)
+    const data = await response.json()
 
     if (response.ok === true) {
       this.onSuccess()
     } else {
-      this.onFailure()
+      this.onFailure(data)
     }
   }
 
